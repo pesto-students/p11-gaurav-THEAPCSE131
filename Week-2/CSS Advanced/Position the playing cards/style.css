@@ -1,0 +1,46 @@
+body {
+  background-color: green;
+}
+.table {
+  background: linear-gradient(to bottom right, forestgreen, darkgreen);
+}
+
+.card {
+  border-radius: 5px;
+  box-shadow: 3px 3px black;
+  position: absolute;
+  height: 500px;
+  width: 250px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.cardTop {
+  position: absolute;
+  left: 150px;
+  top: 100px;
+  z-index: 5;
+}
+
+.cardBottom {
+  position: absolute;
+  left: 395px;
+  top: 120px;
+  z-index: 2;
+}
+
+.topLeft {
+  position: absolute;
+  left: 2px;
+  top: 2px;
+}
+
+.bottomRight {
+  position: absolute;
+  right: 2px;
+  bottom: 2px;
+}
