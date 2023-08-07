@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Review</title>
+  </head>
+  <body>
+    <header>
+      <!-- -------- Title Section -------------- -->
+      <h1>Restaurant Review</h1>
+      <!-- -------- Nav Section  -------------- -->
+      <nav>
+        <a href="./index.html">Home</a>
+        <a href="./add_Review.html">Add Review</a>
+        <a href="./about_US.html">About Us</a>
+      </nav>
+    </header>
+    <!-- -------- Main Body Section -------------- -->
+    <br />
+    <main>
+      <form>
+        <div>
+          <label>Name</label>
+          <input type="text" placeholder="Enter Name" />
+        </div>
+        <br />
+        <!-- --------------- -->
+        <div>
+          <label>Restaurant</label>
+          <select>
+            <option selected>Choose One..</option>
+            <option value="Main Street Cafe">Main Street Cafe</option>
+            <option value="Greek House">Greek House</option>
+          </select>
+        </div>
+        <br />
+        <!-- --------------------- -->
+        <div>
+          <label>Date of visit</label>
+          <input type="date" />
+        </div>
+        <br />
+        <!-- --------------------- -->
+        <div>
+          <label>Rating?</label>
+          <select>
+            <option selected>Choose One..</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+        <br />
+        <!-- ----------------------------- -->
+        <div>
+          <label>Details</label>
+          <textarea
+            cols="50"
+            rows="5"
+            placeholder="Enter some details..."
+          ></textarea>
+        </div>
+        <br />
+        <!-- ------------------------------------- -->
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+    <!-- -------- Footer Section -------------- -->
+    <iframe
+      src="./footer.html"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </body>
+</html>
